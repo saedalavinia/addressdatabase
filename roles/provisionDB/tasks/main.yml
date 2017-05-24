@@ -1,0 +1,19 @@
+---
+#Author: Saed Alavinia 
+#Email: saedalav@gmail.com 
+#Github: github.com/saedalav 
+
+- rds:
+    command: create
+    region: "{{Region}}"
+    instance_name: "{{InstanceName}}"
+    db_engine: MySQL
+    size: 6
+    publicly_accessible: yes
+    instance_type: db.t2.micro
+    username: "{{AdminUsername}}"
+    password: "{{AdminPassword}}"
+    tags:
+      Name: address_test
+
+

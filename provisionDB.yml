@@ -1,0 +1,7 @@
+---
+- name: Start Ansible Controller
+  hosts: localhost
+  connection: local
+  roles: 
+   - provisionDB
+

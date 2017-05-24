@@ -1,0 +1,12 @@
+---
+#Author: Saed Alavinia 
+#Email: saedalav@gmail.com 
+#Github: github.com/saedalav 
+
+
+# vars file for pcf
+Region: us-east-1
+AdminUsername: saedalav
+AdminPassword: mypass123
+InstanceName: address
+
